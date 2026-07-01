@@ -43,6 +43,7 @@
 ## 📊 3. Results & Insights
 ### 3.1 Results
 Based on the business context, the model is tuned to trade off Recall vs. Precision — this threshold can be adjusted to match leadership's actual priorities.
+![Result_Compare2models](Result_Compare2models.png)
 
 ### 3.2 Key Findings 
 - Number of products used is the strongest predictor of customer churn.
