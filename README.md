@@ -1,4 +1,4 @@
-# 🛵 ABC Bank Churn Prediction
+# 🏦 ABC Bank Churn Prediction
 
 ## 📌 1. Context & Problem Statement
 - **Problem Statement**:
@@ -18,6 +18,11 @@
 
 ### 2.3 EDA
 - The dataset is imbalanced: only 20.4% of customers are churned.
+![EDA_ChurnRate](EDA_ChurnRate.png)
+![EDA_CategoricalFeatures](EDA_CategoricalFeatures.png)
+![EDA_ChurnRatebyCategoricalFeatures](EDA_ChurnRatebyCategoricalFeatures.png)
+![EDA_NumericFeatures](EDA_NumericFeatures.png)
+![EDA_ChurnDistributionbyNumericFeatures](EDA_ChurnDistributionbyNumericFeatures.png)
 
 ### 2.4 Feature Engineering
 - Create 3 new features based on EDA findings.
@@ -30,7 +35,10 @@
   — using 5-Fold Cross-Validation to ensure model stability and mitigate overfitting risk.
 - **Hyperparameter Tuning**:  Used RandomizedSearchCV to optimize parameters and decision threshold for the best-performing baseline model: Random Forest.
 - **Evaluation Metrics**: The model was fine-tuned to prioritize high _**Recall**_ in identifying churned customers, minimizing missed opportunities to address critical service issues.
-
+![Result_CV](Result_CV.png)
+![Results](Results.png)
+![Result_ROCCurve](Result_ROCCurve.png)
+![Optimization_Tuning](Optimization_Tuning.png)
 
 ## 📊 3. Results & Insights
 ### 3.1 Results
